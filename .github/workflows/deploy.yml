@@ -22,5 +22,5 @@ jobs:
       - name: Deploy to Azure
         uses: azure/webapps-deploy@v3
         with:
-          app-name: nodejs-hola-mundo
+          app-name: aplicacionMundiana
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
